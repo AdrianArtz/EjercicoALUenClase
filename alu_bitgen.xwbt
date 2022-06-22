@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Adrian\Desktop\Nueva carpeta\EjercicioEnClaseALU\alu.ncd
+OUTFILE=C:\Users\Adrian\Desktop\Nueva carpeta\EjercicioEnClaseALU\alu.bit
+FAMILY=Spartan3
+PART=xc3s50-5pq208
+WORKINGDIR=C:\Users\Adrian\Desktop\Nueva carpeta\EjercicioEnClaseALU
+LICENSE=WebPack
+USER_INFO=212402259_0_0_078

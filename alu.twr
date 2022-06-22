@@ -1,0 +1,163 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n 3
+-fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf
+
+Design file:              alu.ncd
+Physical constraint file: alu.pcf
+Device,package,speed:     xc3s50,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |salida<0>      |    9.388|
+a<0>           |salida<1>      |   10.114|
+a<0>           |salida<2>      |   10.179|
+a<0>           |salida<3>      |   10.854|
+a<0>           |salida<4>      |   10.776|
+a<0>           |salida<5>      |   10.304|
+a<0>           |salida<6>      |   10.701|
+a<0>           |salida<7>      |   10.294|
+a<1>           |salida<1>      |    9.302|
+a<1>           |salida<2>      |    9.753|
+a<1>           |salida<3>      |   10.428|
+a<1>           |salida<4>      |   10.350|
+a<1>           |salida<5>      |    9.878|
+a<1>           |salida<6>      |   10.275|
+a<1>           |salida<7>      |    9.868|
+a<2>           |salida<2>      |    8.851|
+a<2>           |salida<3>      |   10.065|
+a<2>           |salida<4>      |   10.184|
+a<2>           |salida<5>      |    9.712|
+a<2>           |salida<6>      |   10.109|
+a<2>           |salida<7>      |    9.702|
+a<3>           |salida<3>      |    9.461|
+a<3>           |salida<4>      |    9.966|
+a<3>           |salida<5>      |    9.494|
+a<3>           |salida<6>      |    9.891|
+a<3>           |salida<7>      |    9.484|
+a<4>           |salida<4>      |    9.325|
+a<4>           |salida<5>      |    9.392|
+a<4>           |salida<6>      |    9.986|
+a<4>           |salida<7>      |    9.579|
+a<5>           |salida<5>      |    9.064|
+a<5>           |salida<6>      |   10.044|
+a<5>           |salida<7>      |    9.637|
+a<6>           |salida<6>      |    9.182|
+a<6>           |salida<7>      |    9.314|
+a<7>           |salida<7>      |    8.978|
+b<0>           |salida<0>      |    8.308|
+b<0>           |salida<1>      |    9.034|
+b<0>           |salida<2>      |    9.099|
+b<0>           |salida<3>      |    9.774|
+b<0>           |salida<4>      |    9.696|
+b<0>           |salida<5>      |    9.224|
+b<0>           |salida<6>      |    9.621|
+b<0>           |salida<7>      |    9.214|
+b<1>           |salida<1>      |    8.683|
+b<1>           |salida<2>      |    9.134|
+b<1>           |salida<3>      |    9.809|
+b<1>           |salida<4>      |    9.731|
+b<1>           |salida<5>      |    9.259|
+b<1>           |salida<6>      |    9.656|
+b<1>           |salida<7>      |    9.249|
+b<2>           |salida<2>      |    8.935|
+b<2>           |salida<3>      |   10.149|
+b<2>           |salida<4>      |   10.268|
+b<2>           |salida<5>      |    9.796|
+b<2>           |salida<6>      |   10.193|
+b<2>           |salida<7>      |    9.786|
+b<3>           |salida<3>      |    9.981|
+b<3>           |salida<4>      |   10.486|
+b<3>           |salida<5>      |   10.014|
+b<3>           |salida<6>      |   10.411|
+b<3>           |salida<7>      |   10.004|
+b<4>           |salida<4>      |    9.402|
+b<4>           |salida<5>      |    9.469|
+b<4>           |salida<6>      |   10.063|
+b<4>           |salida<7>      |    9.656|
+b<5>           |salida<5>      |    9.106|
+b<5>           |salida<6>      |   10.086|
+b<5>           |salida<7>      |    9.679|
+b<6>           |salida<6>      |    8.897|
+b<6>           |salida<7>      |    9.029|
+b<7>           |salida<7>      |    9.134|
+operacion<0>   |salida<0>      |   11.396|
+operacion<0>   |salida<1>      |   11.583|
+operacion<0>   |salida<2>      |   11.648|
+operacion<0>   |salida<3>      |   12.323|
+operacion<0>   |salida<4>      |   12.245|
+operacion<0>   |salida<5>      |   11.773|
+operacion<0>   |salida<6>      |   12.170|
+operacion<0>   |salida<7>      |   11.763|
+operacion<1>   |salida<0>      |   11.217|
+operacion<1>   |salida<1>      |   11.404|
+operacion<1>   |salida<2>      |   11.469|
+operacion<1>   |salida<3>      |   12.144|
+operacion<1>   |salida<4>      |   12.066|
+operacion<1>   |salida<5>      |   11.594|
+operacion<1>   |salida<6>      |   11.991|
+operacion<1>   |salida<7>      |   11.584|
+operacion<2>   |salida<0>      |   10.982|
+operacion<2>   |salida<1>      |   11.169|
+operacion<2>   |salida<2>      |   11.234|
+operacion<2>   |salida<3>      |   11.909|
+operacion<2>   |salida<4>      |   11.831|
+operacion<2>   |salida<5>      |   11.359|
+operacion<2>   |salida<6>      |   11.756|
+operacion<2>   |salida<7>      |   11.349|
+operacion<3>   |salida<0>      |   10.836|
+operacion<3>   |salida<1>      |   11.023|
+operacion<3>   |salida<2>      |   11.088|
+operacion<3>   |salida<3>      |   11.763|
+operacion<3>   |salida<4>      |   11.685|
+operacion<3>   |salida<5>      |   11.213|
+operacion<3>   |salida<6>      |   11.610|
+operacion<3>   |salida<7>      |   11.203|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jun 22 09:42:09 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 131 MB
+
+
+

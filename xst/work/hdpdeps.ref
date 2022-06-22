@@ -1,0 +1,8 @@
+V3 3
+FL "C:/Users/Adrian/Desktop/Nueva carpeta/EjercicioEnClaseALU/ALU.vhd" 2022/06/22.09:41:44 P.20131013
+EN work/alu 1655908914 \
+      FL "C:/Users/Adrian/Desktop/Nueva carpeta/EjercicioEnClaseALU/ALU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/alu/Behavioral 1655908915 \
+      FL "C:/Users/Adrian/Desktop/Nueva carpeta/EjercicioEnClaseALU/ALU.vhd" \
+      EN work/alu 1655908914
